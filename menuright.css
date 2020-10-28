@@ -66,3 +66,15 @@
     right: 0;
     box-shadow: rgba(0, 0, 0, 0.75) 0px 5px 8px -9px;
 }
+.chat_top{
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    list-style: none;
+    right: 0;
+    background-color: white;
+    list-style: none;
+    padding-top: 60px;
+    box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
+}

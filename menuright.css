@@ -1,0 +1,68 @@
+.menu_right{
+    height: 100%;
+    width: 4rem;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    list-style: none;
+    right: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
+}
+
+.nav_option{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin-left: -16px;
+}
+.nav_item:last-child{
+    margin-top: auto;
+}
+#close{
+    display: none;
+}
+
+
+.name_text{
+    display: none;
+    margin-left: 1rem;
+}
+.search_chat{
+    display: none;
+    margin-left: 1rem;
+}
+.nav_item{
+    width: 100%;
+    
+    
+}
+.nav_item > svg {
+    margin-left: -25px;
+}
+.nav_item {
+    width: fit-content;
+}
+.menu_chat_left{
+    width: 300px;
+    height: -webkit-fill-available;
+    border-right: 1px solid #e5e5e5;    
+}
+.nav_item > a > span{
+    display: block;
+}
+.menu_chat_right{
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    background-color: white;
+    z-index: 100;
+    top: 0px;
+    right: 0;
+    box-shadow: rgba(0, 0, 0, 0.75) 0px 5px 8px -9px;
+}
